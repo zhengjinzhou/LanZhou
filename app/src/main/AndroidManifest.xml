@@ -19,7 +19,8 @@
             </intent-filter>
         </activity>
 
-        <service android:name=".startService"/>
+        <service android:name=".service.XyftService"/>
+
     </application>
 
 </manifest>

@@ -4,6 +4,8 @@ import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
+import zhou.com.lanzhou.service.XyftService;
+
 public class MainActivity extends AppCompatActivity {
 
     @Override
@@ -11,6 +13,6 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        startService(new Intent(getApplicationContext(),startService.class));
+        startService(new Intent(getApplicationContext(),XyftService.class));
     }
 }
